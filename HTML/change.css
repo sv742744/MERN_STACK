@@ -1,0 +1,23 @@
+body{
+    background-color: bisque;
+    transition: background-color 1s ease-in 2s;
+}
+body:hover{
+    background-color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#i{
+    animation: move 10s linear 4;
+
+}
+@keyframes move {
+    0%{
+        transform: translate(0cm,0cm);
+    }
+    50%{
+        transform: translate(10cm,0cm);
+    }
+    100%{
+        transform: translate(10cm,10cm);
+    }
+}

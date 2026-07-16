@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+    background-color: rgb(197, 213, 175);
+    flex-direction: row-reverse;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(139, 191, 237);
+    color: rgb(35, 82, 18);
+    text-align: center;
+    margin: 10px;
+    line-height: 100px;
+}

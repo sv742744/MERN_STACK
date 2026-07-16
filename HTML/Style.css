@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(211, 229, 244);
+}
+button{
+    color: rgb(149, 108, 108);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: aliceblue;
+    font-size: larger;
+    border-radius: 5px;
+    border-color: rgb(9, 59, 42);
+}
+b{
+    color: brown;
+    font-size: medium;
+}
+table th{
+    color: rgb(83, 125, 77);
+}
+table{
+    border: 3px;
+    border-radius: 5px;
+    border-color: rgb(72, 71, 71);
+    border-style: solid;
+    background-color: azure;
+}
+tr,th,td{
+    border-style: solid;
+    border-radius: 5px;
+    border:3px;
+    border-color: rgb(72, 71, 71);
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+}
+li{
+    font-size: medium;
+    text-align: left;
+    font-size: medium;
+}
+h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(48, 58, 26);
+    font-size: xx-large;
+}
+ul{
+    background:linear-gradient(to right,#F7F1DE,#B0BA99,#6FBEB2,#F7F1DE);
+}

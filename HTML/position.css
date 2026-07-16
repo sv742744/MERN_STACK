@@ -1,0 +1,9 @@
+form{
+    border: 30px solid rgb(225, 193, 193);
+    margin: 50px ;
+    padding: 20px 40px;
+    border-radius: 30px;
+}
+input,label{
+    margin-top: 20px;
+}
