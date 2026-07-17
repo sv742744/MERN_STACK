@@ -4,37 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./position.css">
+    <!-- <link rel="stylesheet" href="../css/position.css"> -->
 </head>
 <body>
-    <header><h1 >Form </h1></header>
+    <header id="appication"><h1 >Form </h1></header>
     <main>
         <form >
             <label >Name:</label>
-            <input type="text" placeholder="enter your name"><br>
+            <input id="name" type="text" placeholder="enter your name"><br>
             <label>E-mail:</label>
-            <input type="email" placeholder="a@gmail.com"><br>
+            <input id="email" type="email" placeholder="a@gmail.com"><br>
             <label >Password :</label>
-            <input type="password" placeholder="**************"><br>
+            <input id="password" type="password" placeholder="**************"><br>
             <label >Phone No :</label>
-            <input type="number" placeholder="9876543210"><br>
+            <input id="number" type="number" placeholder="9876543210"><br>
             <label >Gender :</label>
-            <input type="radio">Male <input type="radio"> Female
+            <input id="1" value="male" type="radio" name="gender">Male <input name="gender" value="female" id="2" type="radio"> Female <br>
             <label >Qualification</label>
-            <input type="checkbox"> 10 <sup>th</sup> 
-            <input type="checkbox"> 12 <sup>th</sup> 
-            <input type="checkbox"> deploma 
-            <input type="checkbox"> B tech
-            <input type="checkbox"> M tech <br>
+            <input class="Qualification" type="checkbox" value="10th"> 10 <sup>th</sup> 
+            <input class="Qualification" type="checkbox" value="12th"> 12 <sup>th</sup> 
+            <input class="Qualification" type="checkbox" value="deploma"> deploma 
+            <input class="Qualification" type="checkbox" value="b tech"> B tech
+            <input class="Qualification" type="checkbox" value="m tech"> M tech <br>
             <label > D.O.B</label>
-            <input type="datetime-local"><br>
+            <input type="datetime-local" id="date"><br>
             <label >colour</label>
             <input type="color"><br>
             <label >File</label>
-            <input type="file" ><br><br>
-            <button type="submit"> Submit</button>
+            <input type="file" id="image"><br><br>
+            <button type="button" onclick="show()"> Submit</button>
         </form>
+        <div class="result"></div>
     </main>
     <footer></footer>
+    
+    <script src="../JS/script.js"></script>
 </body>
 </html>
+
+
